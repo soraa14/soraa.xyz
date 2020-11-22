@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Page</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Draco is free PSD &amp; HTML template by @flamekaizar">
+    <meta name="author" content="Afnizar Nur Ghifari">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/kube.min.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/custom.min.css" />
+    <link rel="shortcut icon" href="img/favicon.png" />
+	<link href='http://fonts.googleapis.com/css?family=Playfair+Display+SC:700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+	<style>
+		.intro h1:before {
+			/* Edit this with your name or anything else */
+			content: '';
+		}
+	</style>
+</head>
+<body>
+	<!-- Navigation -->
+	<div class="main-nav">
+		<div class="container">
+			<header class="group top-nav">
+				<div class="navigation-toggle" data-tools="navigation-toggle" data-target="#navbar-1">
+				    <span class="logo">Navigation</span>
+				</div>
+			    <nav id="navbar-1" class="navbar item-nav">
+				    <ul>
+				        <li class="active"><a href="#about">About</a></li>
+				        <li><a href="#experiences">Work Experiences</a></li>
+				        <li><a href="#achievements">Certifications</a></li>
+				        <li><a href="https://soraa14.github.io/soraa-blog/">Blog</a></li>
+				    </ul>
+				</nav>
+			</header>
+		</div>
+	</div>
+
+	<!-- Introduction -->
+	<div class="intro section" id="about">
+		<div class="container">
+			<h2 style="font-family: Sans-serif";>Aziz Rizki Adhiaksa</h2><p style="font-family: Sans-serif";>Cybersecurity Enthusiast | CySA+ </p>
+            
+			<div class="units-row units-split wrap">
+                <div class="unit-20">
+					<img src="img/ava.jpg" alt="Avatar">
+				</div>
+				<div class="unit-80">
+					<h2 style="font-family: Sans-serif; color: rgb(92, 204, 56); text-transform: lowercase; font-weight: lighter;">soraa@kali:~$ <span id="typed"></span></h2>					
+				</div>
+				<p>
+					Self-taught amateur Penetration Tester with a strong desire to be a professional in this field. I spent my days pwning machines on                      <a href="http://hackthebox.eu"> HackTheBox </a>. 
+				</p>				
+			</div>
+		</div>
+	</div>
+
+	<!-- Work Experience -->
+	<div class="work section second" id="experiences">
+		<div class="container">
+			<h1 style="font-family: Sans-serif;">Work<br>Experiences</h1>
+			<ul class="work-list">
+				<li>01 January 2019 - 31 March 2019</li>
+				<li><a href="#">Field Industrial Practice at PT Dirgantara Indonesia</a></li>
+				<li>Web Developer</li>
+			</ul>
+		</div>
+	</div>
+
+	<!-- Certifications -->
+	<div class="award section second" id="achievements">
+		<div class="container">
+			<h1 style="font-family: Sans-serif;">Certifications</h1>
+			<ul class="award-list list-flat">
+				<li>July 2020</li>
+				<li>CompTIA Security+ | Adinusa</li>
+			</ul>
+			<ul class="award-list list-flat">
+				<li>August 2020</li>
+				<li>Certificate of Completion</li>
+				<li>As a participant of Cyber Security Training and has successfully</li>
+				<li>completed Modul CompTIA Security+</li>
+				<li>and CompTIA Cybersecurity Analyst (CySA+)  | InfraDigital Foundation</li>
+			</ul>
+			<ul class="award-list list-flat">
+				<li>August 2020</li>
+				<li>Cyber Security Professional Development Workshop | InfraDigital Foundation</li>
+			</ul>
+			<ul class="award-list list-flat">
+				<li>October 2020</li>
+				<li>CompTIA Cybersecurity Analyst (CySA+) | CompTIA</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="skills section second" id="skills">
+		<div class="container">
+			<h1 style="font-family: Sans-serif;">Badges</h1>
+			<ul class="skill-list list-flat">
+				<li>HackTheBox</li>
+				<li><script src="https://www.hackthebox.eu/badge/381333"></script></li>
+			</ul>
+			<ul class="skill-list list-flat">
+				<li>TryHackMe</li>
+				<li><script src="https://tryhackme.com/badge/25820"></script></li>
+			</ul>
+		</div>
+	</div>
+	
+
+	<footer>
+		<div class="container">
+			<div class="units-row">
+			    <div class="unit-60">
+					<ul class="social list-flat right">
+						<li><a href="mailto:azizrizki1432002@gmail.com"><i class="fa fa-envelope"></i></a></li>
+						<li><a href="https://twitter.com/soraa_144"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="https://github.com/soraa14"><i class="fa fa-github"></i></a></li>
+					</ul>
+			    </div>
+			</div>
+		</div>
+	</footer>
+
+	<!-- Javascript -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/typed.min.js"></script>
+    <script src="js/kube.min.js"></script>
+    <script src="js/site.js"></script>
+    <script>
+		function newTyped(){}$(function(){$("#typed").typed({
+		// Change to edit type effect
+		strings: ["python killserver.py", "Kali Linux FTW", "./backdoor.sh"],
+
+		typeSpeed:90,backDelay:700,contentType:"html",loop:!0,resetCallback:function(){newTyped()}}),$(".reset").click(function(){$("#typed").typed("reset")})});
+    </script>
+</body>
+</html>
